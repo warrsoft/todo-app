@@ -2,12 +2,45 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="shortcut icon" href="/logo.ico" type="image/x-icon">
+    <title>Make it - Bienvenida</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div class="welcome__layout">
+      <div class="welcome__layout--container">
+
+        <section class="welcome__layout--brand">
+          <h1>Make it</h1>
+          <img src="/logo.png" alt="brand logo">
+        </section>
+
+        <section class="welcome__layout--info">
+          <article class="info--purpose">
+            <h2>Bienvenido</h2>
+            <p>Vivimos para hacer tu vida más sencilla al ofrecerte la posibilidad de llevar el control de todas tus tareas
+              desde un
+              solo lugar, de la mejor manera.</p>
+          </article>
+          <article class="info--cta">
+            <a href="/src/pages/login.html" type="button" id="cta--login__btn">Inicia Sesión</a>
+            <a href="/src/pages/signup.html" type="button" id="cta--signup__btn">Regístrate</a>
+          </article>
+        </section>
+      </div>
+
+
+
+      <div class="top__circle">
+        <div></div>
+      </div>
+      <div class="botton__circle">
+        <div></div>
+      </div>
+
+
+
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
